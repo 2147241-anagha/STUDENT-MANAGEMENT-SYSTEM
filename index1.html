@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<style>
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}
+</style>
+<body>
+
+<button type="button" onclick="loadXMLDoc()">Click To View Student Details</button>
+<br><br>
+<table id="demo"></table>
+
+
+<script>
+function loadXMLDoc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+  };
+  xmlhttp.open("GET", "student.xml", true);
+  xmlhttp.send();
+}
+function myFunction(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>USN</th><th>NAME</th><th>COLLEGE</th><th>PROGRAM</th><th>BRANCH</th><th>YEAR</th><th>PHONE</th><th>EMAILID</th></tr>";
+  var x = xmlDoc.getElementsByTagName("STUDENT");
+  for (i = 0; i <x.length; i++) { 
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("USN")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue +
+    "</td><td>"+
+    x[i].getElementsByTagName("COLLEGE")[0].childNodes[0].nodeValue +
+    "</td><td>"+
+    x[i].getElementsByTagName("PROGRAM")[0].childNodes[0].nodeValue +
+    "</td><td>"+
+    x[i].getElementsByTagName("BRANCH")[0].childNodes[0].nodeValue +
+    "</td><td>"+
+    x[i].getElementsByTagName("YEAR")[0].childNodes[0].nodeValue +
+    "</td><td>"+
+    x[i].getElementsByTagName("PHONE")[0].childNodes[0].nodeValue +
+    "</td><td>"+
+    x[i].getElementsByTagName("EMAILID")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+  }
+  document.getElementById("demo").innerHTML = table;
+}
+var tag = document.createElement("p");
+   var text = document.createTextNode("STUDENT");
+   tag.appendChild(text);
+   var element = document.getElementById("demo");
+   element.appendChild(tag);
+ 
+
+
+</script>
+
+</body>
+</html>

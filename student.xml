@@ -1,0 +1,62 @@
+<SMS>
+<STUDENT>
+<USN>1GD11CS001</USN>
+<NAME>Amrita Lal</NAME>
+<COLLEGE> Christ School of Engineering</COLLEGE>
+<PROGRAM>Engineering And Technology</PROGRAM>
+<BRANCH>Computer Science and Engineering</BRANCH>
+<YEAR>2019</YEAR>
+<PHONE>9876543289</PHONE>
+<EMAILID>amritalal@gmail.com</EMAILID>
+</STUDENT>
+<STUDENT>
+<USN>1GD11CS002</USN>
+<NAME>Anuj Das</NAME>
+<COLLEGE>Teresa School of Architecture</COLLEGE>
+<PROGRAM>Architecture</PROGRAM>
+<BRANCH>Interior Design</BRANCH>
+<YEAR>2019</YEAR>
+<PHONE>9876567289</PHONE>
+<EMAILID>anujdas@gmail.com</EMAILID>
+</STUDENT>
+<STUDENT>
+<USN>1GD11CS003</USN>
+<NAME>Anish Desai</NAME>
+<COLLEGE>Ambedkar School of Arts</COLLEGE>
+<PROGRAM>Humanities</PROGRAM>
+<BRANCH>Psychology</BRANCH>
+<YEAR>2020</YEAR>
+<PHONE>9876457289</PHONE>
+<EMAILID>anishdesai@gmail.com</EMAILID>
+</STUDENT>
+<STUDENT>
+<USN>1GD11CS001</USN>
+<NAME>Ritika Mani</NAME>
+<COLLEGE>Reva School of Architecture</COLLEGE>
+<PROGRAM>Architecture</PROGRAM>
+<BRANCH>Product Design</BRANCH>
+<YEAR>2018</YEAR>
+<PHONE>9873467289</PHONE>
+<EMAILID>rithikamani@gmail.com</EMAILID>
+</STUDENT>
+<STUDENT>
+<USN>1GD11CS004</USN>
+<NAME>Drishti Mann</NAME>
+<COLLEGE>Lisaa School of Design</COLLEGE>
+<PROGRAM>Bachelor of Design</PROGRAM>
+<BRANCH>UI/UX Design</BRANCH>
+<YEAR>2020</YEAR>
+<PHONE>9823167289</PHONE>
+<EMAILID>drishtimann@gmail.com</EMAILID>
+</STUDENT>
+<STUDENT>
+<USN>1GD11CS001</USN>
+<NAME>Ekta Rooh</NAME>
+<COLLEGE>Jain School of Sciences</COLLEGE>
+<PROGRAM>Biotechnology</PROGRAM>
+<BRANCH>Genetic Engineering</BRANCH>
+<YEAR>2021</YEAR>
+<PHONE>9126567289</PHONE>
+<EMAILID>ektarooh@gmail.com</EMAILID>
+</STUDENT>
+</SMS>
