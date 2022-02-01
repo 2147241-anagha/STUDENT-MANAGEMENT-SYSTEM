@@ -1,0 +1,32 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+</head>  
+<body>  
+    UniversityID: <input type="text" id="UniversityID"><br>  
+    Name: <input type="text" id="Name"><br>  
+    Department: <input type="text" id="Department"><br>  
+<input type="button" value="Set Cookie" onclick="setCookie()">  
+<input type="button" value="Get Cookie" onclick="getCookie()">  
+  
+<script>  
+ function setCookie()  
+{  
+    document.cookie = "UniversityID="+ document.getElementById("UniversityID").value+"; expires=Wed, 05 Aug 2022 23:00:00 UTC;"              
+    document.cookie = "Name=" + document.getElementById("Name").value+";expires=Wed, 05 Aug 2022 23:00:00 UTC;"  
+    document.cookie = "Department=" + document.getElementById("Department").value;  
+}  
+function getCookie()  
+{  
+    if (document.cookie.length != 0)  
+    {  
+        alert("UniversityID="+document.getElementById("UniversityID").value+" Name="+document.getElementById("Name").value+" Department="+document.getElementById("Department").value);  
+    }      
+    else  
+    {  
+        alert("Cookie not available");  
+    }  
+}     
+ </script>  
+</body>  
+</html>  
