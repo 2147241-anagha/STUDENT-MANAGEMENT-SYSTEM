@@ -1,0 +1,23 @@
+<CHRIST>
+	<COMPUTERSCIENCE>
+		<STU-NAME>Nancy Stew</STU-NAME>
+		<STU-UNIVERSITY>Christ University</STU-UNIVERSITY>
+		<STU-PHONE> 987654321</STU-PHONE>
+		<STU-EMAIL>nancystew@christuniversity.in</STU-EMAIL>
+	</COMPUTERSCIENCE>
+	
+		<COMPUTERSCIENCE>
+			<STU-NAME>Shweta Mann</STU-NAME>
+			<STU-UNIVERSITY>Christ University</STU-UNIVERSITY>
+			<STU-PHONE> 786527828</STU-PHONE>
+			<STU-EMAIL>shwetamann@christuniversity.in</STU-EMAIL>
+		</COMPUTERSCIENCE>
+		
+			<COMPUTERSCIENCE>
+				<STU-NAME>Megha Das</STU-NAME>
+				<STU-UNIVERSITY>Christ University</STU-UNIVERSITY>
+				<STU-PHONE> 6282999267</STU-PHONE>
+				<STU-EMAIL>meghadas@christuniversity.in</STU-EMAIL>
+			</COMPUTERSCIENCE>
+		</CHRIST>
+	
