@@ -1,0 +1,30 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+
+}
+
+td{
+    max-width:fit-content;
+     border: 1px aliceblue;
+    padding: 5px;
+    border-color: aliceblue;
+}
+th{
+    border: 1px solid aliceblue;
+    padding: 5px;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+  
+  th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+  div{
+      font-family:'Times New Roman', Times, serif
+      background-color: antiquewhite; 
+      height: 100px;
+       width: 150px;
+  }
