@@ -11,6 +11,7 @@ angular.module("student1",[])
         return input.substring(0,option).toUpperCase();
     }}
 })
+
 .controller("studentctrl",function($scope)
 {
     var student=[
@@ -25,3 +26,12 @@ angular.module("student1",[])
     $scope.rowlimit=6;
 
 });
+myapp.controller("studentctrl",function($scope,$http)
+    {
+        $http.get('https://github.com/2147241-anagha/STUDENT-MANAGEMENT-SYSTEM/blob/ca98adafbbcea259c91d06403ddc468e46cb4fdd/stu.js')
+        //$http.get('stu.json')
+        .success(function(response)
+        {
+            $scope.stu=response;
+        });
+    });
