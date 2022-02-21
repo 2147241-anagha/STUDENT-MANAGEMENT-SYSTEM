@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"> </script>
+
+  <link rel="stylesheet" href="signin.css" />
+  <link rel="stylesheet" href="style.css">
+  <title>LAB 10</title>
+  <script src="angular.min.js"></script>
+  <script src="roaster.js"></script>
+  
+</head>
+
+<body>
+  <br>
+  <label for="rowsToBeDisplayed">Display:</label>
+  <input type="number" step="1" min="0" max="10" ng-model="rowlimit" placeholder="Number">
+
+  <div class="dark" ng-controller="roaster_ctrl">
+
+    <h3><i class="fa fa-users"></i> Roaster List</h3>
+    <table class="styled-table">
+      <thead>
+
+        </tr>
+        <tr>
+          <th><input type="search" placeholder="USN" ng-model="search.USN" /></th>
+          <th><input type="search" placeholder="NAME" ng-model="search.NAME" /></th>
+          <th><input type="search" placeholder="DEPARTMENT" ng-model="search.DEPARTMENT" /></th>
+        
+          <th><input type="search" placeholder="PROGRAM" ng-model="search.PROGRAM" /></th>
+          <th><input type="search" placeholder="PHONE" ng-model="search.PHONE" /></th>
+          <th><input type="search" placeholder="EMAIL" ng-model="search.EMAIL" /></th>
+
+         
+        </tr>
+        <tr>
+          <th>USN</th>
+          <th>NAME</th>
+          <th>DEPARTMENT</th>
+       
+          <th>PROGRAM</th>
+          <th>PHONE</th>
+          <th>EMAIL</th>
+       
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="stu in student | filter:search |limitTo:rowlimit">
+          <td scope="row">{{stu.USN | myfilter:limit}}</td>
+          <td>{{stu.NAME| uppercase}}</td>
+          <td>{{stu.DEPARTMENT | uppercase }}</td>
+      
+          <td>{{stu.PROGRAM | lowercase}}</td>
+          <td>{{stu.PHONE|uppercase}}</td>
+          <td>{{stu.EMAIL|lowercase}}</td>
+         
+        </tr>
+      </tbody>
+    </table>
+  </div>

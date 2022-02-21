@@ -1,0 +1,9 @@
+{"roaster":[
+    {"flightNO":1234,"date":"2022-02-05","source":"Ahmedabad" ,"fare":5000, "noofseats":32},
+    {"flightNO":2245,"date":"2022-02-06","source":"Bengaluru" ,"fare":7000, "noofseats":35},
+    {"flightNO":3245,"date":"2022-02-07","source":"Vadodara" ,"fare":15000, "noofseats":85},
+    {"flightNO":9985,"date":"2022-02-08","source":"New Delhi" ,"fare":5500, "noofseats":53},
+    {"flightNO":2278,"date":"2022-02-09","source":"Mohali" ,"fare":8900, "noofseats":46},
+    {"flightNO":5278,"date":"2022-02-10","source":"Chandigarh"  ,"fare":6500, "noofseats":25}
+   
+]}  

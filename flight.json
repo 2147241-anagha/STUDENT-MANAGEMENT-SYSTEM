@@ -1,0 +1,9 @@
+{"roaster":[
+    {"resId":1234,"date":"2022-02-05","source":"Ahmedabad" ,"fare":5000, "deltime":32},
+    {"resId":2245,"date":"2022-02-06","source":"Bengaluru" ,"fare":7000, "deltime":35},
+    {"resId":3245,"date":"2022-02-07","source":"Vadodara" ,"fare":15000, "deltime":85},
+    {"resId":9985,"date":"2022-02-08","source":"New Delhi" ,"fare":5500, "deltime":53},
+    {"resId":2278,"date":"2022-02-09","source":"Mohali" ,"fare":8900, "deltime":46},
+    {"resId":5278,"date":"2022-02-10","source":"Chandigarh"  ,"fare":6500, "deltime":25}
+   
+]}  
